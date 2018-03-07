@@ -32,8 +32,8 @@ following query:
 
     SELECT oid FROM pg_type WHERE typname = 'uuid';
 
-See https://www.postgresql.org/docs/10/static/datatype-oid.html,
-https://www.postgresql.org/docs/10/static/datatype-uuid.html, and
+See https://www.postgresql.org/docs/current/static/datatype-oid.html,
+https://www.postgresql.org/docs/current/static/datatype-uuid.html, and
 https://www.postgresql.org/docs/current/static/catalog-pg-type.html.")
 
 (defun set-uuid-sql-reader (&optional (table cl-postgres:*sql-readtable*))
