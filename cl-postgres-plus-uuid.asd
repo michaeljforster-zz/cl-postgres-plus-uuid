@@ -23,7 +23,7 @@
 ;;; SOFTWARE.
 
 (asdf:defsystem "cl-postgres-plus-uuid"
-  :description "Common Lisp library that integrates the UUID library with cl-postgres"
+  :description "Common Lisp library providing a cl-postgres SQL reader for the PostgreSQL UUID type."
   :version "0.0.1"
   :author "Michael J. Forster <mike@forsterfamily.ca>"
   :license "MIT"

@@ -1,7 +1,7 @@
 # cl-postgres-plus-uuid
 
-cl-postgres-plus-uuid is a Common Lisp library that integrates the
-UUID library with cl-postgres.
+cl-postgres-plus-uuid is a Common Lisp library that defines a
+cl-postgres SQL reader for the PostgreSQL UUID type.
 
 cl-postgres-plus-uuid depends on
 [cl-postgres](http://marijnhaverbeke.nl/postmodern/cl-postgres.html)
