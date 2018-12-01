@@ -40,4 +40,4 @@ https://www.postgresql.org/docs/current/static/catalog-pg-type.html.")
   (cl-postgres:set-sql-reader +uuid-oid+ #'uuid:make-uuid-from-string :table table))
 
 (defmethod cl-postgres:to-sql-string ((arg uuid:uuid))
-  (format nil "~(~A~)" arg))
+  (values (format nil "~(~A~)" arg) t))
